@@ -1,0 +1,16 @@
+def integer := 42
+def float := 3.14
+def string := 'Hello, World!'
+def array_of_integers := { 1. 2. 3. 4. 5. }
+def array_of_strings := { one. two. three. }
+def server := {
+  def host := 'localhost'
+  def port := 8080
+  def enabled := True
+}
+def database := {
+  def user := 'admin'
+  def password := 'secret'
+  def timeout := 30
+}
+def plugins := { {'name': 'plugin_one', 'version': '1.0'}. {'name': 'plugin_two', 'version': '2.1'}. }

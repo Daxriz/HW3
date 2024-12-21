@@ -1,0 +1,31 @@
+
+# Пример тестового TOML-файла
+
+# Простые значения
+integer = 42
+float = 3.14
+string = "Hello, World!"
+
+# Массивы
+array_of_integers = [1, 2, 3, 4, 5]
+array_of_strings = ["one", "two", "three"]
+
+# Вложенные таблицы
+[server]
+host = "localhost"
+port = 8080
+enabled = true
+
+[database]
+user = "admin"
+password = "secret"
+timeout = 30
+
+# Массивы таблиц
+[[plugins]]
+name = "plugin_one"
+version = "1.0"
+
+[[plugins]]
+name = "plugin_two"
+version = "2.1"
